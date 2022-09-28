@@ -1,5 +1,7 @@
 import Dickson from "../assets/images/Profile Pic/DicksonProfile.png"
 import Jem from "../assets/images/Profile Pic/jemProfile.png"
+import Arjay from "../assets/images/Profile Pic/ArjayProfile.png"
+
 
 console.log(Dickson)
 
@@ -12,6 +14,7 @@ export default [
        Description:"",
        ProfilePicture:Dickson,
        Portfolio:"https://www.dpalomeras.com/",
+       Facebook:"",
        Email:"",
        id:1,
     },
@@ -21,9 +24,10 @@ export default [
         YearofExp:"3 years",
         Role:"Fullstack Developer / Back-end Developer",
         Description:"",
-        ProfilePicture:"",
+        ProfilePicture:Arjay,
         Portfolio:"",
         Email:"rjaymf10@gmail",
+        Facebook:"",
         id:2,
      },
      {
@@ -37,7 +41,7 @@ export default [
         id:3,
      },
      {
-        FullName:"Jeremy Paul Doza",
+        FullName:"Jeremy Paul C. Doza",
         Age:"26",
         YearofExp:"1 year",
         Role:"Web Developer / Wordpress Developer",

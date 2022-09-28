@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Collaborators from '../../Data/Collaborators';
+import { FaFacebook,FaSkype,FaWhatsapp } from 'react-icons/fa'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -67,6 +68,11 @@ const Testimonial = ({
                         <div className="collab-con testimonial-item-content">
                           <img className='collab-image' src={colab.ProfilePicture}></img>
                           <p className="text-sm mb-0">{colab.FullName}</p>
+                          <div className='social-con p-2 d-md-flex'>
+                              <FaFacebook className='m-1'></FaFacebook>
+                              <FaWhatsapp className='m-1'></FaWhatsapp>
+                              <FaSkype className='m-1'></FaSkype>
+                          </div>
                           <button className='button button-primary mt-2'>Message Now</button>
                         </div>
                         <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
