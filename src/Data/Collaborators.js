@@ -7,7 +7,7 @@ export default [
     {
        FullName:"Dickson H. Palomeras",
        Age:"24",
-       YearofExp:"2 years and 10 months",
+       YearofExp:"2 years+",
        Role:"Fullstack Developer / React Developer",
        Description:"",
        ProfilePicture:Dickson,
@@ -19,7 +19,7 @@ export default [
         FullName:"Arjay M. Francisco",
         Age:"24",
         YearofExp:"3 years",
-        Role:"Fullstack Developer / Wordpress Developer",
+        Role:"Fullstack Developer / Back-end Developer",
         Description:"",
         ProfilePicture:"",
         Portfolio:"",
@@ -49,8 +49,8 @@ export default [
      {
         FullName:"Jacob D. Almogela",
         Age:"26",
-        YearofExp:"2 years and 5 months",
-        Role:"Fullstack Wordpress Developer / Wordpress Designer",
+        YearofExp:"2 years+",
+        Role:"Fullstack Wordpress Developer / Designer",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
         Email:"",
@@ -59,7 +59,7 @@ export default [
      {
         FullName:"Dickson H. Palomeras",
         Age:"24",
-        YearofExp:"2 years and 10 months",
+        YearofExp:"2 years+",
         Role:"Fullstack Developer / React Developer",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",

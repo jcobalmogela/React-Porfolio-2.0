@@ -64,10 +64,10 @@ const Testimonial = ({
                 return<>
                     <div className={`tiles-item collab-card ${colab.id  < 4 ? "reveal-from-top" : "reveal-from-bottom"} `}  data-reveal-delay={`${colab.id > 6 ? '400' : ""}`}>
                       <div className="tiles-item-inner">
-                        <div className="testimonial-item-content">
-                          <img src={colab.ProfilePicture}></img>
+                        <div className="collab-con testimonial-item-content">
+                          <img className='collab-image' src={colab.ProfilePicture}></img>
                           <p className="text-sm mb-0">{colab.FullName}</p>
-                          <button className='button button-primary'>Message Now</button>
+                          <button className='button button-primary mt-2'>Message Now</button>
                         </div>
                         <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                           <span className="testimonial-item-name text-color-high">{colab.YearofExp}</span>

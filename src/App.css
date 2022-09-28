@@ -4,3 +4,12 @@ html{
 .collab-card{
     text-align: center;
 }
+.collab-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collab-image{
+    width: 150px;
+    height: 150px;
+}
