@@ -67,6 +67,7 @@ const Testimonial = ({
                         <div className="testimonial-item-content">
                           <img src={colab.ProfilePicture}></img>
                           <p className="text-sm mb-0">{colab.FullName}</p>
+                          <button className='button button-primary'>Message Now</button>
                         </div>
                         <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                           <span className="testimonial-item-name text-color-high">{colab.YearofExp}</span>
