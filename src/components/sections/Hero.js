@@ -75,7 +75,7 @@ Let's talk
                   <Button tag="a" color="primary" wideMobile href="">
                     About Me
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="#">
                     Services
                     </Button>
                 </ButtonGroup>
