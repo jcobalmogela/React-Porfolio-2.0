@@ -1,3 +1,6 @@
+import Dickson from "../assets/images/Profile Pic/DicksonProfile.png"
+console.log(Dickson)
+
 export default [
     {
        FullName:"Dickson H. Palomeras",
@@ -5,17 +8,20 @@ export default [
        YearofExp:"2 years and 10 months",
        Role:"Fullstack Developer / React Developer",
        Description:"",
-       ProfilePicture:"",
+       ProfilePicture:Dickson,
        Portfolio:"https://www.dpalomeras.com/",
+       Email:"",
        id:1,
     },
     {
-        FullName:"Dickson H. Palomeras",
+        FullName:"Arjay M. Francisco",
         Age:"24",
         YearofExp:"2 years and 10 months",
-        Role:"Fullstack Developer / React Developer",
+        Role:"Fullstack Developer / Wordpress Developer",
+        Description:"",
         ProfilePicture:"",
-        Portfolio:"https://www.dpalomeras.com/",
+        Portfolio:"",
+        Email:"rjaymf10@gmail",
         id:2,
      },
      {
@@ -25,6 +31,7 @@ export default [
         Role:"Web Developer / SEO Specialist",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
+        Email:"",
         id:3,
      },
      {
@@ -34,15 +41,17 @@ export default [
         Role:"Fullstack Developer / React Developer",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
+        Email:"",
         id:4,
      },
      {
-        FullName:"Dickson H. Palomeras",
-        Age:"24",
-        YearofExp:"2 years and 10 months",
-        Role:"Fullstack Developer / React Developer",
+        FullName:"Jacob D. Almogela",
+        Age:"26",
+        YearofExp:"2 years and 5 months",
+        Role:"Fullstack Wordpress Developer / Wordpress Designer",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
+        Email:"",
         id:5,
      },
      {
@@ -52,6 +61,7 @@ export default [
         Role:"Fullstack Developer / React Developer",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
+        Email:"",
         id:6,
      },
 

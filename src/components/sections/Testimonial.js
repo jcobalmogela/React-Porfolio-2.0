@@ -47,7 +47,7 @@ const Testimonial = ({
   const sectionHeader = {
     title: 'Collaborators',
     subtitle:'Meet the Team',
-    paragraph: "We have 7 developers on our team, each with a unique set of talents and tools, so feel free to choose any of us to work on your project and start building your website right now.",
+    paragraph: "We have 6 developers on our team, each with a unique set of talents and tools, so feel free to choose any of us to work on your project and start building your website right now.",
   };
 
   return (
@@ -62,9 +62,10 @@ const Testimonial = ({
             {
               Collaborators.map((colab) => {
                 return<>
-                    <div className={`tiles-item ${colab.id  < 4 ? "reveal-from-top" : "reveal-from-bottom"} `}  data-reveal-delay={`${colab.id > 6 ? '400' : ""}`}>
+                    <div className={`tiles-item collab-card ${colab.id  < 4 ? "reveal-from-top" : "reveal-from-bottom"} `}  data-reveal-delay={`${colab.id > 6 ? '400' : ""}`}>
                       <div className="tiles-item-inner">
                         <div className="testimonial-item-content">
+                          <img src={colab.ProfilePicture}></img>
                           <p className="text-sm mb-0">{colab.FullName}</p>
                         </div>
                         <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
