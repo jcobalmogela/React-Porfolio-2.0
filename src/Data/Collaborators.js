@@ -1,4 +1,6 @@
 import Dickson from "../assets/images/Profile Pic/DicksonProfile.png"
+import Jem from "../assets/images/Profile Pic/jemProfile.png"
+
 console.log(Dickson)
 
 export default [
@@ -16,7 +18,7 @@ export default [
     {
         FullName:"Arjay M. Francisco",
         Age:"24",
-        YearofExp:"2 years and 10 months",
+        YearofExp:"3 years",
         Role:"Fullstack Developer / Wordpress Developer",
         Description:"",
         ProfilePicture:"",
@@ -27,7 +29,7 @@ export default [
      {
         FullName:"John Kenneth A. Morales",
         Age:"23",
-        YearofExp:"3 years",
+        YearofExp:"3 years and 5 months",
         Role:"Web Developer / SEO Specialist",
         ProfilePicture:"",
         Portfolio:"https://www.dpalomeras.com/",
@@ -35,13 +37,13 @@ export default [
         id:3,
      },
      {
-        FullName:"Dickson H. Palomeras",
-        Age:"24",
-        YearofExp:"2 years and 10 months",
-        Role:"Fullstack Developer / React Developer",
-        ProfilePicture:"",
-        Portfolio:"https://www.dpalomeras.com/",
-        Email:"",
+        FullName:"Jeremy Paul Doza",
+        Age:"26",
+        YearofExp:"1 year",
+        Role:"Web Developer / Wordpress Developer",
+        ProfilePicture:Jem,
+        Portfolio:"https://codejem.elementfx.com/wp/",
+        Email:"jeremypauldoza@gmail.com",
         id:4,
      },
      {
