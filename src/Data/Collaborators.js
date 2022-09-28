@@ -1,6 +1,7 @@
 import Dickson from "../assets/images/Profile Pic/DicksonProfile.png"
 import Jem from "../assets/images/Profile Pic/jemProfile.png"
 import Arjay from "../assets/images/Profile Pic/ArjayProfile.png"
+import John from "../assets/images/Profile Pic/JohnyProfile.png"
 
 
 console.log(Dickson)
@@ -35,7 +36,7 @@ export default [
         Age:"23",
         YearofExp:"3 years and 5 months",
         Role:"Web Developer / SEO Specialist",
-        ProfilePicture:"",
+        ProfilePicture:John,
         Portfolio:"dpalomeras.com",
         Email:"",
         id:3,
