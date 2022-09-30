@@ -37,7 +37,7 @@ export default [
         YearofExp:"3 years and 5 months",
         Role:"Web Developer / SEO Specialist",
         ProfilePicture:John,
-        Portfolio:"dpalomeras.com",
+        Portfolio:"Ongoing",
         Email:"",
         id:3,
      },

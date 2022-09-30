@@ -69,7 +69,7 @@ const Testimonial = ({
                           <img className='collab-image' src={colab.ProfilePicture}></img>
                           <p className="text-sm mb-0">{colab.FullName}</p>
                           <a className='portLink' target="_blank" href={colab.Portfolio}>{colab.Portfolio}</a>
-                          <div className='social-con p-2 d-md-flex'>
+                          <div className='social-con p-2 d-flex'>
                               <FaFacebook className='m-1'></FaFacebook>
                               <FaWhatsapp className='m-1'></FaWhatsapp>
                               <FaSkype className='m-1'></FaSkype>
