@@ -68,7 +68,7 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
               {reverseProject.map((project,id) => {
                 return(
-                  <div className="split-item" key={id}>
+                  <div className="split-item py-4" key={id}>
                     <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                       <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                         {project.description}
