@@ -15,6 +15,14 @@ import UI1 from '../img/ui projects 1.png'
 
 
 
+
+
+
+
+//animatedIcons
+
+
+
 //rockopm plyare 
 import rc1 from '../img/rockopm/rc1.png'
 import rc2 from '../img/rockopm/rc2.png'
@@ -65,7 +73,8 @@ import barn1 from "../img/Barndominium/rc1.png"
 import tps1 from "../img/TinyProp Shop/rc1.png"
 
 // import PixelBoss
-import pb1 from "../img/PixelBoss/rc1.png"
+import pb1 from "../PortImage/Latest2.png"
+import pb2 from "../PortImage/Latest3.png"
 
 // import Evblock
 import eb1 from "../img/Evblock/rc1.png"
@@ -79,20 +88,25 @@ import bt from "../PortImage/Latest1.png"
 export default [
     // p1 
     {
-        title:"Figos Pepitos House",
-        description:"Restaurant Website Design",
-        info:"For nearly a century, the Red Lilly Plumbing team has delivered honest, reliable, and affordable plumbing services in Los Angeles and the San Fernando Valley. Throughout the four generations we've been in business, we have proudly served the local area by tackling their biggest plumbing headaches.", 
-    },
-    {
-        title:"Figos Pepitos House",
-        description:"Restaurant Website Design",
-        info:"During my journey on javascript", 
-    },
-    {
         title:"Black Hat Plumbing",
         description:"Plumbing Website Design",
         info:"For nearly a century, the Black Hat Plumbing team has delivered honest, reliable, and affordable plumbing services in Bangkok. Throughout the four generations we've been in business, we have proudly served the local area by tackling their biggest plumbing headaches.", 
         Images:bt,
+        link:"https://bangkoktourister.com/",
+    },
+    {
+        title:"Pixel Boss",
+        description:"Agency Website Design",
+        info:"We tell your Story and Build Brand Engagement One Pixel At a Time.", 
+        Images:pb2,
+        link:"https://pixelboss.io/",
+    },
+    {
+        title:"Pixel Boss Club",
+        description:"Agency Website Design",
+        info:"Pixel Boss’s Club’s purpose is to be the hub and synergy between the worlds of Web 2.0 and Web 3.0.", 
+        Images:pb1,
+        link:"https://pixelboss.io/club/",
     },
      
 ]

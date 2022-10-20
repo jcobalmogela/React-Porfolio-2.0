@@ -79,8 +79,11 @@ const FeaturesSplit = ({
                       <p className="m-0">
                         {project.info}
                         </p>
-                      <div className='skill-used'>
-
+                      <div className='skill-used p-2'>
+                          <img src={""}/>
+                      </div>
+                      <div className='px-1'>
+                      <a href={project.link} target="_blank"><button className='button button-primary mt-2'>Visit Website</button></a>
                       </div>
                     </div>
                     <div className={
@@ -89,11 +92,13 @@ const FeaturesSplit = ({
                         imageFill && 'split-item-image-fill'
                       )}
                       data-reveal-container=".split-item">
+                      <div className='imageOverly'>
                       <Image
                         src={project.Images}
                         alt="Features split 01"
                         width={528}
                         height={396} />
+                      </div>
                     </div>
                 </div>
                 )
