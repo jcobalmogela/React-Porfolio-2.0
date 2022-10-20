@@ -2,6 +2,7 @@ import Dickson from "../assets/images/Profile Pic/DicksonProfile.png"
 import Jem from "../assets/images/Profile Pic/jemProfile.png"
 import Arjay from "../assets/images/Profile Pic/ArjayProfile.png"
 import John from "../assets/images/Profile Pic/JohnyProfile.png"
+import Jacob from "../assets/images/Profile Pic/JacobProfile.png"
 
 
 console.log(Dickson)
@@ -56,7 +57,7 @@ export default [
         Age:"26",
         YearofExp:"2 years+",
         Role:"Fullstack Wordpress Developer / Designer",
-        ProfilePicture:"",
+        ProfilePicture:Jacob,
         Portfolio:"jacobalmogela.com",
         Email:"",
         id:5,

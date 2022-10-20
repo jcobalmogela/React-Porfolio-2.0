@@ -107,6 +107,7 @@ const FeaturesSplit = ({
 
 
           </div>
+          <a href="https://jacobportfolio-react-jcobalmogela.vercel.app/"><h5 className='text-center mt-5 text-color-primary'>Show More</h5></a>
         </div>
       </div>
     </section>

@@ -75,7 +75,7 @@ Let's talk
                   <Button tag="a" color="primary" wideMobile href="">
                     About Me
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="#">
+                  <Button tag="a" color="dark" wideMobile href="#service">
                     Services
                     </Button>
                 </ButtonGroup>
