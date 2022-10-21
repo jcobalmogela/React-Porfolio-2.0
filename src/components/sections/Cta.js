@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import emailjs from 'emailjs-com';
 
 const propTypes = {
   ...SectionProps.types,
