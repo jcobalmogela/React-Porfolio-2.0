@@ -1,0 +1,8 @@
+.chatboxx{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+.hide{
+    display: none;
+}
